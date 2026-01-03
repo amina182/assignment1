@@ -46,7 +46,7 @@ public class Patient {
 
     public String compareAge(Patient patient){
         if(this.age == patient.age){
-            return "Same age patients;";
+            return "Same age patients";
         } else if(this.age < patient.age){
             return patient.name + " is older";
         }else {
